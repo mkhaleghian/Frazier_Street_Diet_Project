@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-21 23:58:07 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\mehdi\OneDrive - University of Tennessee\Documents\CUIP Projects\Fraizer street\Final\Scenario2\left_turn_protected_final.net.xml"/>
+        <route-files value="C:\Users\mehdi\OneDrive - University of Tennessee\Documents\CUIP Projects\Fraizer street\Final\Scenario2\8th.rou.xml"/>
+    </input>
+
+    <output>
+        <queue-output value="C:\Users\mehdi\OneDrive - University of Tennessee\Documents\CUIP Projects\Fraizer street\Final\Scenario2\queue.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="21600"/>
+    </time>
+
+    <processing>
+        <ignore-junction-blocker value="1"/>
+        <ignore-route-errors value="true"/>
+        <waiting-time-memory value="100000000"/>
+    </processing>
+
+    <report>
+        <xml-validation value="never"/>
+        <no-warnings value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<queue-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/queue_file.xsd">
+</queue-export>
