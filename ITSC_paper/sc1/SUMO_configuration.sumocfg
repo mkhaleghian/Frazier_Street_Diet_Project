@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-21 05:03:24 by Eclipse SUMO sumo Version 1.19.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="frizer_Av_current.net.xml"/>
+        <route-files value="s1_itsc_mean_pm.rou.xml"/>
+         <additional-files value="edgedata.add.xml, detector.add.xml"/>
+    </input>
+
+    <output>
+        <queue-output value="queue_before.xml"/>
+        <edgedata-output value="edgedata_current.xml"/>  
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="15000"/>
+    </time>
+
+    <processing>
+        <ignore-junction-blocker value="1"/>
+        <ignore-route-errors value="true"/>
+        <waiting-time-memory value="100000000"/>
+        <scale value="1"/>
+        <collision.check-junctions value="true"/>
+    </processing>
+
+    <report>
+        <xml-validation value="never"/>
+        <no-warnings value="true"/>
+    </report>
+
+</configuration>

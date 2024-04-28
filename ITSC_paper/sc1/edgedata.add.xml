@@ -1,0 +1,3 @@
+<additional>
+    <edgeData id="dump_900" freq="300" file="currernt_edge_data.xml" excludeEmpty="true" minSamples="5"/>
+</additional>

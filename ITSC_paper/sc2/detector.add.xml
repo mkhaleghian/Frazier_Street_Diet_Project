@@ -1,0 +1,41 @@
+
+
+
+<additional>
+  <inductionLoop id="market_s_0" lane="1656_0" pos="81" period="300" file="detector_out.xml"/>
+  <inductionLoop id="market_s_1" lane="1656_1" pos="81" period="300" file="detector_out.xml"/>
+  <inductionLoop id="market_s_2" lane="1656_2" pos="81" period="300" file="detector_out.xml"/>
+
+  <inductionLoop id="market_w_0" lane="-2239_0" pos="71" period="300" file="detector_out.xml"/>
+  <inductionLoop id="market_w_1" lane="-2239_1" pos="71" period="300" file="detector_out.xml"/>
+  <inductionLoop id="market_w_2" lane="-2239_2" pos="71" period="300" file="detector_out.xml"/>
+
+  <inductionLoop id="market_E_0" lane="9040_0" pos="7" period="300" file="detector_out.xml"/>
+  <inductionLoop id="market_E_1" lane="-9040_1" pos="7" period="300" file="detector_out.xml"/>
+  <inductionLoop id="market_E_1_1" lane="9040_1" pos="48" period="300" file="detector_out.xml"/>
+
+  <inductionLoop id="woodland_out" lane="9039_0" pos="161" period="300" file="detector_out.xml"/>
+  <inductionLoop id="woodland_in" lane="-9039_2" pos="7" period="300" file="detector_out.xml"/>
+
+  <inductionLoop id="forest_in" lane="-E0_0" pos="10" period="300" file="detector_out.xml"/>
+  <inductionLoop id="forest_out" lane="E0_0" pos="60" period="300" file="detector_out.xml"/>
+
+  <inductionLoop id="delmont_out" lane="-9051_0" pos="54" period="300" file="detector_out.xml"/>
+
+  <inductionLoop id="tremont_E_0" lane="9089_0" pos="87" period="300" file="detector_out.xml"/>
+  <inductionLoop id="tremont_E_1" lane="9089_1" pos="87" period="300" file="detector_out.xml"/>
+  <inductionLoop id="tremont_E_1_1" lane="-9089_1" pos="4" period="300" file="detector_out.xml"/>
+
+  <inductionLoop id="tremont_N_0" lane="-9068_0" pos="77" period="300" file="detector_out.xml"/>
+  <inductionLoop id="tremont_N_1" lane="-9068_1" pos="77" period="300" file="detector_out.xml"/>
+
+  <inductionLoop id="tremont_S_0" lane="E6_0" pos="180" period="300" file="detector_out.xml"/>
+  <inductionLoop id="tremont_S_1" lane="E6_1" pos="180" period="300" file="detector_out.xml"/>
+
+  <inductionLoop id="tremont_W_0" lane="-9069_0" pos="108" period="300" file="detector_out.xml"/>
+  <inductionLoop id="tremont_W_1" lane="-9069_1" pos="108" period="300" file="detector_out.xml"/>
+  <inductionLoop id="tremont_W_1_1" lane="9069_1" pos="6" period="300" file="detector_out.xml"/>
+
+  <inductionLoop id="market_e_0" lane="9040_0" pos="46" period="300" file="detector_out.xml"/>
+  <inductionLoop id="market_e_1" lane="9040_1" pos="46" period="300" file="detector_out.xml"/>
+</additional>

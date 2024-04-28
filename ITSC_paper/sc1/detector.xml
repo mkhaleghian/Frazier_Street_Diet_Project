@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-12 12:42:28 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\mehdi\OneDrive - University of Tennessee\Documents\CUIP Projects\Fraizer street\ITSC\sc1\frizer_Av_current.net.xml"/>
+        <additional-files value="C:\Users\mehdi\OneDrive - University of Tennessee\Documents\CUIP Projects\Fraizer street\ITSC\sc1\edgedata.add.xml,C:\Users\mehdi\OneDrive - University of Tennessee\Documents\CUIP Projects\Fraizer street\ITSC\sc1\ calibrator.add.xml"/>
+    </input>
+
+    <output>
+        <edgedata-output value="C:\Users\mehdi\OneDrive - University of Tennessee\Documents\CUIP Projects\Fraizer street\ITSC\sc1\edgedata_current.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="15100"/>
+    </time>
+
+    <processing>
+        <ignore-junction-blocker value="1"/>
+        <ignore-route-errors value="true"/>
+        <waiting-time-memory value="100000000"/>
+    </processing>
+
+    <report>
+        <xml-validation value="never"/>
+        <no-warnings value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<calibratorstats xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/calibratorstats_file.xsd">
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_N_er2" nVehContrib="250" removed="71" inserted="0" cleared="2" flow="59.60" aspiredFlow="60.00" speed="5.80" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_wood_out_er14" nVehContrib="50" removed="235" inserted="0" cleared="0" flow="11.92" aspiredFlow="12.00" speed="9.07" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_south_wr8" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_wood_out_er3" nVehContrib="50" removed="235" inserted="0" cleared="0" flow="11.92" aspiredFlow="12.00" speed="9.07" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_forest_out_er15" nVehContrib="48" removed="130" inserted="0" cleared="2" flow="11.44" aspiredFlow="12.00" speed="3.89" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_north_wr12" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_south_wr11" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_forest_out_er11" nVehContrib="40" removed="138" inserted="0" cleared="2" flow="9.54" aspiredFlow="10.00" speed="3.89" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_forest_south_wr4" nVehContrib="178" removed="0" inserted="180" cleared="2" flow="42.44" aspiredFlow="43.00" speed="3.89" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_south_wr3" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="35.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_wood_out_er6" nVehContrib="285" removed="0" inserted="285" cleared="0" flow="67.95" aspiredFlow="68.00" speed="9.07" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_north_wr2" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="61.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_north_wr7" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="8.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_woodland_south_wr5" nVehContrib="138" removed="147" inserted="0" cleared="0" flow="32.90" aspiredFlow="33.00" speed="9.07" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_forest_south_wr9" nVehContrib="46" removed="130" inserted="0" cleared="4" flow="10.97" aspiredFlow="12.00" speed="3.89" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_east_wr6" nVehContrib="162" removed="1266" inserted="0" cleared="6" flow="38.62" aspiredFlow="40.00" speed="7.78" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_east_wr10" nVehContrib="93" removed="1338" inserted="0" cleared="3" flow="22.17" aspiredFlow="23.00" speed="7.78" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_N_er5" nVehContrib="321" removed="0" inserted="323" cleared="2" flow="76.53" aspiredFlow="77.00" speed="5.80" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_forest_out_er7" nVehContrib="103" removed="75" inserted="0" cleared="2" flow="24.56" aspiredFlow="25.00" speed="3.89" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_east_wr1" nVehContrib="1432" removed="0" inserted="1435" cleared="3" flow="341.40" aspiredFlow="342.00" speed="7.78" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_W_er13" nVehContrib="99" removed="969" inserted="0" cleared="18" flow="23.60" aspiredFlow="28.00" speed="3.68" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_wood_out_er10" nVehContrib="50" removed="235" inserted="0" cleared="0" flow="11.92" aspiredFlow="12.00" speed="9.07" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_W_er4" nVehContrib="1069" removed="0" inserted="1086" cleared="17" flow="254.86" aspiredFlow="259.00" speed="3.68" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_W_er9" nVehContrib="97" removed="969" inserted="0" cleared="20" flow="23.13" aspiredFlow="28.00" speed="3.68" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_W_er1" nVehContrib="76" removed="990" inserted="0" cleared="20" flow="18.12" aspiredFlow="23.00" speed="3.68" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_N_er12" nVehContrib="46" removed="273" inserted="0" cleared="4" flow="10.97" aspiredFlow="12.00" speed="5.80" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_forest_out_er11" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="10.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_forest_out_er15" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_forest_out_er7" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="25.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_N_er12" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_N_er2" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="60.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_N_er5" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="77.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_W_er1" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="23.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_W_er13" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="28.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_W_er4" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="259.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_market_W_er9" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="28.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_wood_out_er10" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_wood_out_er14" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_wood_out_er3" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_er_wood_out_er6" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="68.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_forest_south_wr4" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="43.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_forest_south_wr9" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_east_wr1" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="342.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_east_wr10" nVehContrib="1" removed="0" inserted="0" cleared="0" flow="0.24" aspiredFlow="23.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_east_wr6" nVehContrib="1" removed="0" inserted="0" cleared="0" flow="0.24" aspiredFlow="40.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_north_wr12" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_north_wr2" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="61.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_north_wr7" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="8.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_south_wr11" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_south_wr3" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="35.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_tremont_south_wr8" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="12.00" speed="-1.00" aspiredSpeed="-1.00"/>
+    <interval begin="0.00" end="15100.00" id="calibtest_wr_woodland_south_wr5" nVehContrib="0" removed="0" inserted="0" cleared="0" flow="0.00" aspiredFlow="33.00" speed="-1.00" aspiredSpeed="-1.00"/>
+</calibratorstats>

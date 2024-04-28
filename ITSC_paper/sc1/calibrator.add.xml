@@ -1,0 +1,141 @@
+<additional>
+  <vType carFollowModel="Krauss"  id="type1" length="5" vClass="passenger"  maxSpeed="15.53288232"  maxSpeedLat="14.00027863"  minGap="1.38582304"  speedFactor="1.72713235" tau="1.82132215" accel="5.463872"  decel="5.14507628"/>
+  
+  <route id="ER1" edges="-2239 -9040 -9045 -E0" />
+  <route id="ER2" edges="1656 -9040 -9045 -E0"/>
+  <route id="ER3" edges="9039 -9045 -E0"/>
+  <route id="ER4" edges="-2239 -9040 -9045 -9052 -9069 -9089 -9092"/>
+  <route id="ER5" edges="1656 -9040 -9045 -9052 -9069 -9089 -9092" />
+  <route id="ER6" edges="9039 -9045 -9052 -9069 -9089 -9092"/>
+  <route id="ER7" edges="E0 -9052 -9069 -9089 -9092"/>
+  <route id="ER8" edges="1656 -9040 -9045 -9052 -9069 9068"/>
+  <route id="ER9" edges="-2239 -9040 -9045 -9052 -9069 9068"/>
+  <route id="ER10" edges="9039 -9045 -9052 -9069 9068"/>
+  <route id="ER11" edges="E0 -9052 -9069 9068"/>
+  <route id="ER12" edges="1656 -9040 -9045 -9052 -9069 -E6"/>
+  <route id="ER13" edges="-2239 -9040 -9045 -9052 -9069 -E6"/>
+  <route id="ER14" edges="9039 -9045 -9052 -9069 -E6"/>
+  <route id="ER15" edges="E0 -9052 -9069 -E6"/>
+  <route id="WR1" edges="9089 9069 9052 9045 9040 2239" />
+  <route id="WR2" edges="E6 9069 9052 9045 9040 9034"/>
+  <route id="WR3" edges="-9068 9069 9052 9045 9040 -1656"/>
+  <route id="WR4" edges="E0 9045 9040 -1656"/>
+  <route id="WR5" edges="9039 9040 2239"/>
+  <route id="WR6" edges="9089 9069 9052 9045 -9039"/>
+  <route id="WR7" edges="E6 9069 9052 9045 -9039"/>
+  <route id="WR8" edges="-9068 9069 9052 9045 -9039"/>
+  <route id="WR9" edges="E0 9045 -9039"/>
+  <route id="WR10" edges="9089 9069 9052 -E0"/>
+  <route id="WR11" edges="-9068 9069 9052 -E0"/>
+  <route id="WR12" edges="E6 9069 9052 -E0"/>
+
+
+  <calibrator id="calibtest_er_market_N_er2" edge="1656" pos="84.01" output="detector.xml">
+    <flow begin="0" end="15100" route="ER2" vehsPerHour="60"  type="type1" departPos="free" departSpeed="max"/>
+  </calibrator>
+
+<calibrator id="calibtest_er_market_N_er5" edge="1656" pos="84.01" output="detector.xml">
+    <flow begin="0" end="15100" route="ER5" vehsPerHour="77"  type="type1" departPos="free" departSpeed="max"/>
+  </calibrator>
+
+<calibrator id="calibtest_er_market_N_er12" edge="1656" pos="84.01" output="detector.xml">
+    <flow begin="0" end="15100" route="ER12" vehsPerHour="12"  type="type1" departPos="free" departSpeed="max"/>
+  </calibrator>
+
+
+  <calibrator id="calibtest_er_market_W_er1" edge="-2239" pos="72.80" output="detector.xml">
+    <flow begin="0" end="15100" route="ER1" vehsPerHour="23"  type="type1" departPos="free" departSpeed="max"/>
+</calibrator>
+
+  <calibrator id="calibtest_er_market_W_er4" edge="-2239" pos="72.80" output="detector.xml">
+    <flow begin="0" end="15100" route="ER4" vehsPerHour="259"  type="type1" departPos="free" departSpeed="max"/>
+</calibrator>
+
+  <calibrator id="calibtest_er_market_W_er9" edge="-2239" pos="72.80" output="detector.xml">
+    <flow begin="0" end="15100" route="ER9" vehsPerHour="28"  type="type1" departPos="free" departSpeed="max"/>
+</calibrator>
+
+  <calibrator id="calibtest_er_market_W_er13" edge="-2239" pos="72.80" output="detector.xml">
+    <flow begin="0" end="15100" route="ER13" vehsPerHour="28"  type="type1" departPos="free" departSpeed="max"/>
+  </calibrator>
+
+  <calibrator id="calibtest_er_wood_out_er3" edge="9039" pos="164.12" output="detector.xml">
+    <flow begin="0" end="15100" route="ER3" vehsPerHour="12"  type="type1" departPos="free" departSpeed="max"/>
+ </calibrator>
+
+  <calibrator id="calibtest_er_wood_out_er6" edge="9039" pos="164.12" output="detector.xml">
+    <flow begin="0" end="15100" route="ER6" vehsPerHour="68"  type="type1" departPos="free" departSpeed="max"/>
+ </calibrator>
+
+  <calibrator id="calibtest_er_wood_out_er10" edge="9039" pos="164.12" output="detector.xml">
+    <flow begin="0" end="15100" route="ER10" vehsPerHour="12"  type="type1" departPos="free" departSpeed="max"/>
+ </calibrator>
+
+  <calibrator id="calibtest_er_wood_out_er14" edge="9039" pos="164.12" output="detector.xml">
+    <flow begin="0" end="15100" route="ER14" vehsPerHour="12"  type="type1" departPos="free" departSpeed="max"/>
+  </calibrator>
+
+  <calibrator id="calibtest_er_forest_out_er7" edge="E0" pos="62.08" output="detector.xml">
+    <flow begin="0" end="15100" route="ER7" vehsPerHour="25"  type="type1" departPos="free" departSpeed="max"/>
+</calibrator>
+
+ <calibrator id="calibtest_er_forest_out_er11" edge="E0" pos="62.08" output="detector.xml">
+    <flow begin="0" end="15100" route="ER11" vehsPerHour="10"  type="type1" departPos="free" departSpeed="max"/>
+</calibrator>
+
+ <calibrator id="calibtest_er_forest_out_er15" edge="E0" pos="62.08" output="detector.xml">
+    <flow begin="0" end="15100" route="ER15" vehsPerHour="12"  type="type1" departPos="free" departSpeed="max"/>
+  </calibrator>
+
+
+
+  <calibrator id="calibtest_wr_tremont_east_wr1" edge="9089" pos="88.94" output="detector.xml">
+    <flow begin="0" end="15100" route="WR1" vehsPerHour="342"  type="type1" departPos="free" departSpeed="max"/>
+</calibrator>
+
+  <calibrator id="calibtest_wr_tremont_east_wr6" edge="9089" pos="88.94" output="detector.xml">
+    <flow begin="0" end="15100" route="WR6" vehsPerHour="40"  type="type1" departPos="free" departSpeed="max"/>
+</calibrator>
+
+  <calibrator id="calibtest_wr_tremont_east_wr10" edge="9089" pos="88.94" output="detector.xml">
+    <flow begin="0" end="15100" route="WR10" vehsPerHour="23"  type="type1" departPos="free" departSpeed="max"/>
+  </calibrator>
+
+  <calibrator id="calibtest_wr_tremont_north_wr2" edge="-9068" pos="77.14" output="detector.xml">
+    <flow begin="0" end="15100" route="WR2" vehsPerHour="61"  type="type1" departPos="free" departSpeed="max"/>
+</calibrator>
+
+  <calibrator id="calibtest_wr_tremont_north_wr7" edge="-9068" pos="77.14" output="detector.xml">
+    <flow begin="0" end="15100" route="WR7" vehsPerHour="8"  type="type1" departPos="free" departSpeed="max"/>
+</calibrator>
+
+  <calibrator id="calibtest_wr_tremont_north_wr12" edge="-9068" pos="77.14" output="detector.xml">
+    <flow begin="0" end="15100" route="WR12" vehsPerHour="12"  type="type1" departPos="free" departSpeed="max"/>
+  </calibrator>
+
+
+  <calibrator id="calibtest_wr_tremont_south_wr3" edge="E6" pos="48.14" output="detector.xml">
+    <flow begin="0" end="15100" route="WR3" vehsPerHour="35"  type="type1" departPos="free" departSpeed="max"/>
+</calibrator>
+
+<calibrator id="calibtest_wr_tremont_south_wr8" edge="E6" pos="48.14" output="detector.xml">
+    <flow begin="0" end="15100" route="WR8" vehsPerHour="12"  type="type1" departPos="free" departSpeed="max"/>
+</calibrator>
+
+<calibrator id="calibtest_wr_tremont_south_wr11" edge="E6" pos="48.14" output="detector.xml">
+    <flow begin="0" end="15100" route="WR11" vehsPerHour="12"  type="type1" departPos="free" departSpeed="max"/>
+  </calibrator>
+
+  <calibrator id="calibtest_wr_forest_south_wr4" edge="E0" pos="64.46" output="detector.xml">
+    <flow begin="0" end="15100" route="WR4" vehsPerHour="43"  type="type1" departPos="free" departSpeed="max"/>
+ </calibrator>
+
+  <calibrator id="calibtest_wr_forest_south_wr9" edge="E0" pos="64.46" output="detector.xml">
+    <flow begin="0" end="15100" route="WR9" vehsPerHour="12"  type="type1" departPos="free" departSpeed="max"/>
+  </calibrator>
+
+  <calibrator id="calibtest_wr_woodland_south_wr5" edge="9039" pos="162.60" output="detector.xml">
+    <flow begin="0" end="15100" route="WR5" vehsPerHour="33"  type="type1" departPos="free" departSpeed="max"/>
+  </calibrator>
+
+</additional>
